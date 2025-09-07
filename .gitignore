@@ -1,18 +1,25 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# ==== Obsidian Vault ====
 
-# Other files and folders
-.settings/
+# Archivos de configuración local (no sirven en otros dispositivos)
+.obsidian/workspace.json
+.obsidian/appearance.json
+.obsidian/graph.json
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# Cache de plugins y sesiones
+.obsidian/cache/
+.obsidian/plugins/*/data.json
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Archivos de sistema (Mac, Windows, Linux)
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos temporales
+*.swp
+*.swo
+*.tmp
+
+# Backups automáticos (si usas algún plugin)
+.excalidraw
+.obsidian/backups/
+
