@@ -7,11 +7,11 @@ tags:
 El sistema de numeración binario utiliza dos dígitos, el cero ( 0 ) y el uno ( 1 ).
 De acuerdo a esta regla, el número binario 1111 tiene un valor que se calcula así:
 $$
-\begin{array}{1}
-1 x 2³ + 1 x 2² + 1 x 2¹ + 1 x 2⁰ = \\
-1 x 8 + 1 x 4 + 1 x 2 + 1 x 1 = \\
-8 + 4 + 2 + 1 = 15_{10}
-\end{array}
+\begin{align*}
+1 x 2³ + 1 x 2² + 1 x 2¹ + 1 x 2⁰ &= \\
+1 x 8 + 1 x 4 + 1 x 2 + 1 x 1 &= \\
+8 + 4 + 2 + 1 &= 15_{10}
+\end{align*}
 $$
 y para expresar que ambos números son iguales, se escribe así:
 $$1111_2 = 15_{10}$$
@@ -19,15 +19,15 @@ $$1111_2 = 15_{10}$$
 ### Conversión entre números [[SISTEMA DECIMAL | decimales]] y binarios
 Basta con realizar divisiones sucesivas entre 2 y escribir el resto obtenido de cada división y luego anotarlos de forma inversa a como se fueron obteniendo:
 $$
-\begin{array}{1}
-77 / 2 = 38, Resto: 1\\
-38 / 2 = 19, Resto: 0\\
-19 / 2 = 9, Resto: 1\\
-9 / 2 = 4, Resto: 1\\
-4 / 2 = 2, Resto: 0\\
-2 / 2 = 1, Resto: 0\\
-1 / 2 = 0, Resto: 1
-\end{array}
+\begin{align*}
+77 / 2 = 38, Resto&: 1\\
+38 / 2 = 19, Resto&: 0\\
+19 / 2 = 9, Resto&: 1\\
+9 / 2 = 4, Resto&: 1\\
+4 / 2 = 2, Resto&: 0\\
+2 / 2 = 1, Resto&: 0\\
+1 / 2 = 0, Resto&: 1
+\end{align*}
 $$
 Y tomando los restos de forma inversa nos queda:
 $$77_{10} = 1001101_2$$

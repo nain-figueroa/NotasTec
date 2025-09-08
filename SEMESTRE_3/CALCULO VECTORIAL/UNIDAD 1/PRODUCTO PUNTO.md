@@ -1,7 +1,6 @@
 ---
 tags:
   - calculo
-  - teoría
   - vectores
 ---
 El producto punto se conoce también como producto escalar o producto inferior,  donde 2 vectores $a$ y $b$ se denotan mediante $a·b$ y es un número real o escalar definido en términos de las componentes de los vectores.

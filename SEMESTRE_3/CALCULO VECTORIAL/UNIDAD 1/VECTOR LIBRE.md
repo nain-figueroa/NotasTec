@@ -1,6 +1,5 @@
 ---
 tags:
-  - teoría
   - calculo
   - vectores
 ---

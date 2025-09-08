@@ -1,3 +1,9 @@
+---
+tags:
+  - teoría
+  - estructuraDeDatos
+  - programación
+---
 Es una técnica de programación que nos permite que un bucle de instrucciones se ejecute $n$ veces. Reemplaza en ocasiones a estructuras repetitivas.
 
 ![[Recursión]]

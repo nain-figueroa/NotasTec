@@ -1,7 +1,6 @@
 ---
 tags:
   - calculo
-  - teoría
   - vectores
 ---
 Es un vector que tiene de magnitud 1.

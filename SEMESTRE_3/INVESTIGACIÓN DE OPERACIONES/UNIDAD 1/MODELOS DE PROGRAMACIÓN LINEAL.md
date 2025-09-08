@@ -1,6 +1,7 @@
 ---
 tags:
   - investigaciónDeOperaciones
+  - teoría
 ---
 **Constituyen la clase más importante** y ampliamente aplicada de modelos en la investigación de operaciones **debido a su relativa simplicidad matemática y la disponibilidad de métodos de resolución eficientes.**
 
