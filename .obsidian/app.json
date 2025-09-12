@@ -2,7 +2,8 @@
   "alwaysUpdateLinks": true,
   "newFileLocation": "folder",
   "newFileFolderPath": "LIMBO",
-  "showLineNumber": true,
+  "showLineNumber": false,
   "trashOption": "none",
-  "attachmentFolderPath": "SRC"
+  "attachmentFolderPath": "SRC",
+  "showIndentGuide": false
 }

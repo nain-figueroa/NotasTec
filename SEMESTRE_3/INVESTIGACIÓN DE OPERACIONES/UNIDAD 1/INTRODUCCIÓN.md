@@ -2,7 +2,7 @@
 tags:
   - investigaciónDeOperaciones
 ---
-Es un disciplina científica que aplica métodos matemáticos avanzados, análisis estadísticos y algoritmos para optimizar procesos y de toma de decisiones en situaciones complejas
+Es un disciplina científica que aplica métodos matemáticos avanzados, análisis estadísticos y algoritmos para **optimizar procesos** y de toma de decisiones en situaciones complejas
 
 ___
 ### Origen militar

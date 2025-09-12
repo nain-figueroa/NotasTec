@@ -4,7 +4,10 @@ tags:
   - investigaciónDeOperaciones
 ---
 Es una representación matemática abstracta de un sistema o problema del mundo real. **Esta representación simplifica la realidad para hacerla manejable, manteniendo los elementos esenciales que influyen en las decisiones a optimizar.**
-La formulación adecuada del modelo es crucial: *Un modelo demasiado simplificado puede no capturar aspectos importantes del problema, mientras que uno excesivamente complejo puede resultar impracticable.*
+La formulación adecuada del modelo es crucial.
+
+>[!WARNING]
+>Un modelo demasiado simplificado puede no capturar aspectos importantes del problema, mientras que uno excesivamente complejo puede resultar impracticable.
 ___
 ### COMPONENTES ESENCIALES
 

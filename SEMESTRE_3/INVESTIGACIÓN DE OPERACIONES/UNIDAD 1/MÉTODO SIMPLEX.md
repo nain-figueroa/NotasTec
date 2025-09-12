@@ -5,7 +5,7 @@ tags:
 ---
 Es un algoritmo iterativo diseñado para resolver problemas de programación lineal con cualquier tipo de variables y restricciones.
 ***
-##### Principios fundamentales
+## Principios fundamentales
 - **Exploración sistemática**
 El algoritmo se mueve de un vértice a otro de la región factible, mejorando el valor de la función objetivo en cada iteración.
 - **Mejora iterativa**

@@ -17,29 +17,30 @@ tags:
 - Aditividad:
 *La contribución total es la suma de las contribuciones individuales*.
 ***
-### Estructura matemática general
-##### Maximizar / Minimizar
-$$
-\begin{array}{1}
-Z = C_1X_1 + C_2X_2 + ... + C_nX_n
-\end{array}
-$$
-##### Sujeto a las restricciones
-$$
-\begin{array}{1}
-a_11X_1 + a_12X_2 + ... a_1nX_n <= b_1 \\[1em]
-a_12X_1 + a_22X_2 + ... a_2nX_n <= b_2 \\[1em]
-... \\[1em]
-a_m1X_1 + a_m2X_2 + ... + a_mnX_n <= b_m
-\end{array}
-$$
-##### Y a las restricciones de no negatividad
-$$
-\begin{array}{1}
-X_1,X_2,...,X_n >= 0
-\end{array}
-$$
-___
+>[!NOTE] Estructura matemática general
+>##### Maximizar / Minimizar
+>$$
+>\begin{array}{1}
+>Z = C_1X_1 + C_2X_2 + ... + C_nX_n
+>\end{array}
+>$$
+>##### Sujeto a las restricciones
+>$$
+>\begin{array}{1}
+>a_11X_1 + a_12X_2 + ... a_1nX_n <= b_1 \\[1em]
+>a_12X_1 + a_22X_2 + ... a_2nX_n <= b_2 \\[1em]
+>... \\[1em]
+>a_m1X_1 + a_m2X_2 + ... + a_mnX_n <= b_m
+>\end{array}
+>$$
+>##### Y a las restricciones de no negatividad
+>$$
+>\begin{array}{1}
+>X_1,X_2,...,X_n >= 0
+>\end{array}
+>$$
+
+
 #### Visualización
 Se caracterizan por una función objetivo que debe optimizarse dentro de una región factible formada por las restricciones. La solución óptima se encuentra en uno de los vértices de esta región.
 ___
@@ -57,7 +58,7 @@ Ejemplo: *En un problema de producción, las variables pueden ser la cantidad de
 - **2.- Definir la función objetivo**
 Formule la expresión matemática que representa el objetivo a optimizar ( maximizar beneficios, minimizar costes, etc ).
 
-Ejemplo: *Si $C_1,C_2,...,C_3$, son beneficios por unidad, la función objetivo sería $Z = C_1X_1, C_2X_2, ..., C_nX_n$.*
+Ejemplo: *Si $C_1,C_2,...,C_n$, son beneficios por unidad, la función objetivo sería $Z = C_1X_1, C_2X_2, ..., C_nX_n$.*
 
 - **3.- Establecer las restricciones**
 Identifique todas las limitaciones que afectan a las variables de decisión y expreselas como ecuaciones o inecuaciones lineales.
@@ -66,26 +67,27 @@ Identifique todas las limitaciones que afectan a las variables de decisión y ex
 - **4.- Incorporar condiciones de no negatividad**
 En la mayoría de los problemas reales, las variables no pueden tomar valores negativos, por lo que se añaden restricciones de no negatividad: $x_1 >= 0, x_2 >= 0, ..., x_n >= 0$.
 ___
-#### EJEMPLO PRÁCTICO
-Una planta automotriz fabrica dos modelos de vehículos: sedanes ( S ) y todoterreno ( T ). La dirección desea determinar cuantas unidades de cada modelo a producir para maximizar el beneficio total.
+>[!NOTE] EJEMPLO PRÁCTICO
+>Una planta automotriz fabrica dos modelos de vehículos: sedanes ( S ) y todoterreno ( T ). La dirección desea determinar cuantas unidades de cada modelo a producir para maximizar el beneficio total.
+>
+>**Datos del problema**
+>- Beneficio: *3.000 € por sedán y 4.000 € por todoterreno*.
+>- Tiempo disponible: *4 horas por sedán y 5 horas por todoterreno.*
+>- Consumo de aluminio: *100 kg por sedán y 200 kg por todoterreno.*
+>- Aluminio disponible: *8.000 kg semanales.*
+>- Demanda mínima: *Al menos 10 sedantes semanales.*
+>- Demanda máxima: *No más de 30 todoterrenos semanales.*
+>**Formulación matemática**
+ >- **Variables:** S = *Número de sedanes*, T = *Número de todoterreno*
+ >- **Función objetivo:** Maximizar $Z = 3.000S + 4.000T$ 
+ >- **Restricciones:** 
+>	 - Tiempo: *$4S + 5T <= 200$*
+>	 - Aluminio: *$100S +  200T <= 8.000$*
+>	 - Demanda mínima sedanes: *$S >= 10$*
+>	 - Demanda máxima todoterreno: *$T <= 30$*
+>	 - No negatividad: *$S, T >= 0$*
 
-**Datos del problema**
-- Beneficio: *3.000 € por sedán y 4.000 € por todoterreno*.
-- Tiempo disponible: *4 horas por sedán y 5 horas por todoterreno.*
-- Consumo de aluminio: *100 kg por sedán y 200 kg por todoterreno.*
-- Aluminio disponible: *8.000 kg semanales.*
-- Demanda mínima: *Al menos 10 sedantes semanales.*
-- Demanda máxima: *No más de 30 todoterrenos semanales.*
-**Formulación matemática**
- - **Variables:** S = *Número de sedanes*, T = *Número de todoterreno*
- - **Función objetivo:** Maximizar $Z = 3.000S + 4.000T$ 
- - **Restricciones:** 
-	 - Tiempo: *$4S + 5T <= 200$*
-	 - Aluminio: *$100S +  200T <= 8.000$*
-	 - Demanda mínima sedanes: *$S >= 10$*
-	 - Demanda máxima todoterreno: *$T <= 30$*
-	 - No negatividad: *$S, T >= 0$*
 ***
-##### Formas de resolución
-- [[MÉTODO GRÁFICO]]
-- [[MÉTODO SIMPLEX]]
+>[!NOTE] Formas de resolución
+>- [[MÉTODO GRÁFICO]]
+>- [[MÉTODO SIMPLEX]]

@@ -36,4 +36,6 @@ Si hacemos un análisis de forma directa al programa para determinar el tiempo d
 - Comparar dos números
 - Poner indices a un arreglo
 - Retorno de un método
-En forma especifica, **una operación primitiva corresponde a una instrucción en el lenguaje de bajo nivel**, cuyo tiempo de ejecución depende del ambiente de hardware y software, pero es constante.
+
+>[!NOTE]
+>En forma especifica, **una operación primitiva corresponde a una instrucción en el lenguaje de bajo nivel**, cuyo tiempo de ejecución depende del ambiente de hardware y software, pero es constante.
